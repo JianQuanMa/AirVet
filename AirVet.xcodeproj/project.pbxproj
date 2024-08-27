@@ -18,6 +18,7 @@
 		4EF30C6F2C7E6F030039F0E4 /* TaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF30C6E2C7E6F030039F0E4 /* TaskModel.swift */; };
 		4EF30C712C7E6F530039F0E4 /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF30C702C7E6F530039F0E4 /* AddTaskViewController.swift */; };
 		4EF30C732C7E79A00039F0E4 /* TaskListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF30C722C7E79A00039F0E4 /* TaskListViewModel.swift */; };
+		4EF30C752C7E80170039F0E4 /* TaskTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF30C742C7E80170039F0E4 /* TaskTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		4EF30C6E2C7E6F030039F0E4 /* TaskModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModel.swift; sourceTree = "<group>"; };
 		4EF30C702C7E6F530039F0E4 /* AddTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
 		4EF30C722C7E79A00039F0E4 /* TaskListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListViewModel.swift; sourceTree = "<group>"; };
+		4EF30C742C7E80170039F0E4 /* TaskTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,11 +109,12 @@
 				4EF30C402C7E689A0039F0E4 /* SceneDelegate.swift */,
 				4EF30C422C7E689A0039F0E4 /* HomeViewController.swift */,
 				4EF30C702C7E6F530039F0E4 /* AddTaskViewController.swift */,
+				4EF30C722C7E79A00039F0E4 /* TaskListViewModel.swift */,
 				4EF30C6E2C7E6F030039F0E4 /* TaskModel.swift */,
 				4EF30C472C7E689B0039F0E4 /* Assets.xcassets */,
 				4EF30C492C7E689B0039F0E4 /* LaunchScreen.storyboard */,
 				4EF30C4C2C7E689B0039F0E4 /* Info.plist */,
-				4EF30C722C7E79A00039F0E4 /* TaskListViewModel.swift */,
+				4EF30C742C7E80170039F0E4 /* TaskTableViewCell.swift */,
 			);
 			path = AirVet;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EF30C752C7E80170039F0E4 /* TaskTableViewCell.swift in Sources */,
 				4EF30C432C7E689A0039F0E4 /* HomeViewController.swift in Sources */,
 				4EF30C3F2C7E689A0039F0E4 /* AppDelegate.swift in Sources */,
 				4EF30C6F2C7E6F030039F0E4 /* TaskModel.swift in Sources */,
